@@ -240,3 +240,85 @@
 // }
 
 // console.log(getOddMin(arr));
+
+// ! 7 ta misol
+
+// 1-masala
+
+// function getInitialodds(n) {
+//   let answer = [];
+//   for (let i = 1; i <= n; i++) {
+//     answer.length == 0 ? answer.push(1) : answer.push(answer.at(-1) + 2);
+//   }
+//   return answer;
+// }
+// console.log(getInitialOdds(15));
+
+// 2-masala
+
+// let arr = [4, 5, 7, 8, 6, 9];
+// function getEvenReverse(arr) {
+//   let answer = [];
+//   for (let i = arr.length - 1; i >= 0; i--) {
+//     if (arr[i] % 2 == 0) answer.push(arr[i]);
+//   }
+//   return answer;
+// }
+// console.log(getEvenReverse(arr));
+
+// 3-masala
+
+// const array = [4, 5, 7, 8, 6, 9];
+// let text = "";
+// for (let i = 0; i < array.length; i++) {
+//   text += `${array[i]}${array[array.length - (i + 1)]}`;
+// }
+// console.log(text);
+
+// 4-masala
+
+// let arr = [1, 6, 9, 5, 8, 10, 15];
+// function rangeSum(arr, K, L) {
+//   let result = 0;
+//   for (let i = K; i <= L; i++) {
+//     result += arr[i];
+//   }
+//   return result;
+// }
+// console.log(rangeSum(arr, 2, 5));
+
+// 5-masala
+
+// let arr = [7, 4, 2, 3, 1, 4, 5, 2, 4, 5, 7];
+// let alone = [];
+// for (let i = 0; i < arr.length; i++) {
+//   !alone.includes(arr[i]) && alone.push(arr[i]);
+// }
+
+// console.log(alone);
+// console.log(false && 1);
+
+// 6-masala
+
+// let arr = [17, 4, 9, 2, 3, 1, 25];
+// let max = 0;
+// let min;
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > max) max = arr[i];
+//   if (min == undefined || min > arr[i]) min = arr[i];
+// }
+// console.log(max);
+// console.log(min);
+
+// 7-masala
+
+// let arr = [1, 5, 8, 9, 10];
+// let newArr = [];
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   if (i != 0) {
+//     newArr.unshift(arr[i]);
+//   } else {
+//     newArr.push(arr[i]);
+//   }
+// }
+// console.log(newArr);
